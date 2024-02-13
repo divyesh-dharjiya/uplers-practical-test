@@ -1,0 +1,62 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.problem-one-parent {
+    width: 100%;
+    background-color: #35b4eb;
+    color: #fff;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.problem-two {
+    width: 90%;
+    height: 70vh;
+    color: #fff;
+    background-color: #d401f0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.problem-two-child {
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 12px;
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
